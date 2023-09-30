@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(135, 120, 120);
+    display: flex;
+    justify-content: center;
+}
+.first{
+    height: 400px;
+    width:400px;
+    background-color: rgb(125, 132, 139) ;
+    margin-top: 200px;
+}
+.head img{
+    height:50%;
+    width:50%;
+    margin-left: 85px;
+    border-style: none;
+    background-color:rgb(170, 195, 216) ;
+}
+.head p{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.head h2{
+    margin-top: 0px;
+    margin-left: 25px;
+}
+.cont{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.mail{
+    margin-top: 10px;
+    display: flex;
+}
+.mail img{
+    height:10%;
+    width:10%;
+    margin-left: 70px;
+}
+.mail p{
+    margin-top: 15px;
+}
+.second{
+    margin-top: 200px;
+    height:400px;
+    width:400px;
+    background-color: rgb(170, 195, 216) ;
+}
+.about-me{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.about-me img{
+    height:10%;
+    width:10%;
+}
+.about-me h3{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.about p{
+    padding-left:60px ;
+}
+.edu-me{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.edu-me img{
+    height:10%;
+    width:10%; 
+}
+.edu-me h3{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.edu p{
+    padding-left: 60px;
+}
+.second h4{
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+.name{
+    margin-left:100px;
+}
+.link{
+    margin-top: 30px;
+    margin-left: 75px;
+}
+.foot{
+    position: sticky;
+    bottom:0px;
+    background-color: rgb(108, 151, 136);
+}
+.icon{
+    height:10%;
+    width:10%;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: black;
+    margin-top: 8px;
+    margin-left: 45px;
+    transition: transform;
+}
+.icon:hover{
+    transform: scale(1.15);
+}
+@media only screen and (max-width:770px){
+    body{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .first{
+        height: 1612px;
+        width:768px;
+        margin-top: auto;
+    }
+    .head img{
+        height:100%;
+        width:100%;
+        margin-top:0px;
+        margin-left: 0px;
+    }
+    .head p{
+        font-size:40px;
+        margin-top: 50px;
+    }
+    .head h2{
+        font-size: 50px;
+        margin-top: 40px;
+    }
+    .cont{
+        font-size: 50px;
+        margin-top: 30px;
+    }
+    .mail{
+        display: flex;
+        flex-direction: column;
+    }
+    .mail img{
+        height:25%;
+        width:25%;
+        margin-top: 40px;
+        margin-left: 190px;
+    }
+    .mail p{
+        font-size: 70px;
+        margin-top: 20px;
+        margin-left: 35px;
+    }
+    .second{
+        margin-top: auto;
+        height:1612px;
+        width:768px;
+    }
+    .about-me{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-me img{
+        height:25%;
+        width:25%;
+        margin-top: 25px;
+    }
+    .about-me h3{
+        font-size: 45px;
+    }
+    .about p{
+        font-size: 45px;
+        margin-top: 20px;
+    }
+    .edu-me{
+        display: flex;
+        flex-direction: column;
+    }
+    .edu-me img{
+        height:25%;
+        width:25%;
+        margin-top: 25px;
+    }
+    .edu-me h3{
+        font-size: 45px;
+    }
+    .edu p{
+        font-size: 45px;
+        margin-top: 20px;
+    }
+    .second h4{
+        font-size: 45px;
+        margin-top: 90px;
+    }
+    .name{
+        font-size: 45px;
+        margin-left: 100px;
+    }
+    .link{
+        font-size: 45px;
+        margin-top: 85px;
+        margin-left: 10px;
+    }
+    .icon{
+        height: 30%;
+        width:30%;
+        margin-top: 115px;
+        margin-left: 85px;
+    }
+     /* .foot{
+        height: 50px;
+        position: sticky;
+     }   */
+}
